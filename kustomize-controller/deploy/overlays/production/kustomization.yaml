@@ -1,2 +1,5 @@
 bases:
 - ../../base
+images:
+  - newName: quay.io/prometheus/node-exporter
+    name: nginx
