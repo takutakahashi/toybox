@@ -10,6 +10,10 @@ services:
 
   app1:
     image: nginx
+    volumes:
+    - ./app1.conf:/etc/nginx/nginx.conf
 
   app2:
     image: nginx
+    volumes:
+    - ./app2.conf:/etc/nginx/nginx.conf
