@@ -9,11 +9,7 @@ services:
     - ./lb.conf:/etc/nginx/nginx.conf
 
   app1:
-    image: nginx
-    volumes:
-    - ./app1.conf:/etc/nginx/nginx.conf
+    image: kennethreitz/httpbin
 
   app2:
-    image: nginx
-    volumes:
-    - ./app2.conf:/etc/nginx/nginx.conf
+    image: kennethreitz/httpbin
