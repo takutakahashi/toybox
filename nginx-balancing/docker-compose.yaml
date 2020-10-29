@@ -9,7 +9,7 @@ services:
     - ./lb.conf:/etc/nginx/nginx.conf
 
   app1:
-    image: kennethreitz/httpbin
+    image: nginx
 
   app2:
-    image: kennethreitz/httpbin
+    image: nginx
